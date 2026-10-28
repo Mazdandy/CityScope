@@ -1,0 +1,21 @@
+{
+  "name": "cityscope",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "CityScope — browser city simulator. See PRD_Web_City_Sim.md",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4175"
+  },
+  "dependencies": {
+    "pixi.js": "^8.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5"
+  }
+}
